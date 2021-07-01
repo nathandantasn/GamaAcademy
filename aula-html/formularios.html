@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>  
+        <head>
+                <title> Página para exercícios | Gama Academy </title>
+                <!--meta são as configurações padrão do site-->
+                <meta charset="UTF-8"/>
+                <meta name="description" content="Texto descritivo da página web"/>
+                <meta name="author" content="Gama Academy" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <!-- referenciar o css da página-->
+                <link  rel="stylesheet" type = "text/css" href="estilo.css"/> 
+                <!-- referenciar os scripts da página-->
+                <script type="text/javascript" src="script.js"></script>
+        </head>
+
+<body>
+        <!--cabeçalho-->
+        <header>
+        </header>
+        <!--conteúdo principal-->
+        <main>
+                <!--criar um formulário-->
+                <!--action = para onde vai os dados | method "get ou post", get envia os dados expondo a url, post envia os dados sem expor a url de destino-->
+                <form action="#" method="">
+                    
+                    <!--título para o formulário-->
+                    <label>Nome</label>
+                    <input type="text" name="nome" id="campo1"/> 
+                   
+                    <label>Interesses de Estudos 1</label>
+                    <select name="Interesse" id="campo2">
+                        
+                        <option value="1">Sabor</option>
+                        <option value="1">Marketing</option>
+                    </select>
+
+                    <fieldset>
+                        <legend>Interesses de Estudos 2</legend>
+                        <label for="campo31">Vendas</label>
+                        <input type="radio" name="Interesse2" value="1" id="campo31"/>
+                        <label for="campo32">Marketing</label>
+                        <input type="radio" name="Interesse2" value="2" id="campo32"/>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Interesses de Estudos 3</legend>
+                        <label for="campo41">Vendas</label>
+                        <input type="checkbox" name="Interesse3" value="1" id="campo41"/>
+                        <label for="capo42">Marketing</label>
+                    <input type="checkbox" name="Interesse3" value="2" id="campo42"/>
+                    </fieldset>
+                    
+                    <input type="submit" value="Enviar o formulário"/> 
+
+                </form>
+        </main>
+        <!--Rodapé-->
+        <footer>
+        </footer>
+</body>
+</html>    

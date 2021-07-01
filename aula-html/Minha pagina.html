@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>  
+        <head>
+                <title> Página para exercícios | Gama Academy </title>
+                <!--meta são as configurações padrão do site-->
+                <meta charset="UTF-8"/>
+                <meta name="description" content="Texto descritivo da página web"/>
+                <meta name="author" content="Gama Academy" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <!-- referenciar o css da página-->
+                <link  rel="stylesheet" type = "text/css" href="estilo.css"/> 
+                <!-- referenciar os scripts da página-->
+                <script type="text/javascript" src="script.js"></script>
+        </head>
+
+<body>
+        <!--cabeçalho-->
+        <header>
+                <!--adicionando imagens-->
+                <img src="cal.png" alt="Imagem Html, CSS e JavaScript" title="Nazaré Tedesco"/>
+        </header>
+        <!--conteúdo principal-->
+        <main>
+                <!--criar uma seção na pág-->
+                <section>
+                        <h1>Terra</h1>
+                        <p>Eu <strong>GOSTO</strong> de cerveja!</p>
+                        <!-- Incluir links-->
+                        <a href="https://google.com" title="Site do Google" target="_blank"> Teste de link </a>
+                        <!-- Adicionar texto com link -->
+                        <p>Estamos no curso de HTML e queremos <a href="https://google.com" title="aprender mais pesquisando" target="_blank">aprender mais pesquisando</a></p>
+                        <a href="https://google.com" title="Site do Google" target="_blank"><img src="cal.png"/></a>
+                        <!-- Tipos de tamanhos de títulos diferentes-->
+                <h2>América do Sul</h2>
+                <!--criar divisões na pág-->
+                <div class="bloco-post" id="div1"> 
+                        <img src="cerveja.jfif" alt="cerveja" title="Minhas cervejas favoritas" class="img-post"/>
+                </div>
+                <div class="bloco-post" id="div2"> 
+                        <!--adicionar arquivos de vídeos usando player nativo-->
+                        <video width="550" height="560" controls>
+                                <source src="rocket.mp4" type="video/mp4"/>
+                        </video>
+                </div>
+                <div class="bloco-post" id="div3" class="img-post"> 
+                        <!--adicionando imagens com link-->
+                        <img src="https://poltronanerd.com.br/wp-content/uploads/2020/04/baby-yoda.jpg" alt="Baby Yoda" title="Baby Yoda" />
+                
+                </div>
+                <div class="bloco-post" id="div4"> 
+                        <img src="urso.jpg" alt="urso" title="urso polar" class="img-post"/>
+                </div>
+                </section>
+                
+                <p>Eu <span>gosto</span> de cerveja!</p>
+                <h3>Brasil</h3>
+                <p>Eu gosto de cerveja!</p>
+                <h4>São Paulo</h4>
+                <p>Eu gosto de cerveja!</p>
+                <h5>Campinas</h5>
+                <p>Eu gosto de cerveja!</p>
+                <h6>Formosa</h6>
+                <p>Eu gosto de cerveja!</p>
+                
+                
+                <!--lista desordenada-->
+                <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                </ul>
+                <!--lista desordenada com círculo-->
+                <ul type="circle">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                </ul>
+                <!--lista ordenada que começa no 3-->
+                <ol start="3">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                </ol>
+                <!--lista ordenada que começa no 3 usando letras-->
+                <ol start="3" type="A">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                </ol>
+                <!--Lista de definição(pode ser considerado um dicionário)-->
+                <dl>
+                        <dt>Palavra 1</dt>
+                        <!--usa-se 'dd' para a explicação da palavra-->
+                        <dd>Explicação da palavra 1</dd>
+                </dl>
+                <!--criação da tabela-->
+                <table>
+                        <!--cabeçalho da tabela-->
+                        <thead>
+                                <tr>
+                                      <th>Mês da atividade</th> 
+                                      <th>Nome da atividade</th> 
+                                </tr>
+                        </thead>
+                        <!--corpo da tabela-->
+                        <tbody>
+                                <!--'tr': comando que abre a linha tabela, table row-->
+                                <tr>
+                                        <!--comando para ocupar duas colunas-->
+                                        <!-- 'td' table data ou dados da tabela-->
+                                        <td colspan="2">Janeiro</td>
+                                </tr>
+                                <tr>
+                                        <td>Fevereiro</td>
+                                        <!--comando para ocupar duas linhas-->
+                                        <td rowspan="2">Futebol</td>
+                                </tr>
+                                <tr>
+                                        <td>Março</td>
+                                </tr>
+                        </tbody>
+
+                        <!--rodapé da tabela-->
+                        <tfoot>
+                                <tr>
+                                        <td>Total de atividades</td>
+                                        <td>2 atividades</td>
+                                </tr>
+                        </tfoot>
+                </table>
+        </main>
+        <!--Rodapé-->
+        <footer>
+        </footer>
+</body>
+</html>    
