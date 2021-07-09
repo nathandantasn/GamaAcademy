@@ -41,3 +41,4 @@ const soma = numbers.reduce((valorAnterior, valorAtual) => {
 
 console.log(soma) // 75
 
+// assunto finalizado
