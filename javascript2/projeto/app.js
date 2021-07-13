@@ -20,7 +20,7 @@ while (entradaInicial.toLocaleUpperCase() === 'S'){
             const retorno = livros.filter(livros => livros.categoria === entrada2);
             console.table(retorno)
         } else if(entrada.toLocaleLowerCase() === 'autor'){
-            let entrada2 = redline.question('Digite o nome do autor do livro: ')
+            const entrada2 = redline.question('Digite o nome do autor do livro: ')
             const retorno = livros.filter(livros => livros.autor === entrada2);
             console.table(retorno)
         } else if(entrada.toLocaleLowerCase() === 'nome'){
