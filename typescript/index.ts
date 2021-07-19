@@ -8,3 +8,13 @@ const meuNumero2 = 5;
 const resultado = somar(meuNumero1, meuNumero2);
 
 console.log(resultado);
+
+function print(){
+    enum Estado {
+    SP,
+    SC,
+    SE,
+    }
+    let uf: string = Estado[3];
+    console.log(uf);
+    }
